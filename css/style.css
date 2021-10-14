@@ -1,0 +1,81 @@
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    line-height: 1.5;
+}
+h2 {
+    font-size: 2.5rem;
+    line-height: 1;
+    margin-bottom: 0;
+}
+.web-fonts h2 {
+    font-family: Book Antiqua, serif;
+}
+
+.web-fonts p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.google h2 {
+    font-family: 'Festive', cursive;
+}
+
+.google p {
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 300;  */
+}
+
+
+.adobe h2 {
+    font-family: salamat, sans-serif;
+}
+
+.adobe p {
+    font-family: pt-sans-pro, sans-serif;
+}
+
+.self-hosted h2 {
+    font-family: 'bloodynormal';
+}
+.self-hosted p:first-of-type {
+    font-family: 'abeezeeregular';
+}
+.self-hosted p:last-of-type{
+    font-family: 'abeezeeitalic';
+}
+
+
+@media screen and (min-width: 981px) {
+    /** self hosted fonts **/
+@font-face {
+    font-family: 'bloodynormal';
+    src: url('../fonts/bloody-webfont.woff2') format('woff2'),
+         url('../fonts/bloody-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+@font-face {
+    font-family: 'abeezeeitalic';
+    src: url('../fonts/abeezee-italic-webfont.woff2') format('woff2'),
+         url('../fonts/abeezee-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+@font-face {
+    font-family: 'abeezeeregular';
+    src: url('../fonts/abeezee-regular-webfont.woff2') format('woff2'),
+         url('../fonts/abeezee-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+}
